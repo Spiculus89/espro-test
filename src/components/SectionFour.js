@@ -8,11 +8,11 @@ import logo5 from '../assets/logo5.png';
 export const SectionFour = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5]
   const quotes = [
-    "The result is a richly flavored, super aromatic cup of coffee without the usual silt in the bottom. The press isn’t just for coffee, either—there’s also a tea filter available that isolates tea leaves to prevent oversteeping.",
-    "The Aeropress is perfect for camping and traveling, allowing for a delicious, convenient cup of coffee without access to a traditional coffee machine.",
+    "The result is a richly flavored, super aromatic cup of coffee without the usual silt in the bottom. The press isn’t just for coffee..",
+    "The Aeropress is perfect for camping, allowing for a delicious, convenient cup of coffee without access to a traditional coffee machine.",
     "The Aeropress is known for its versatility and ability to produce a clean, smooth cup of coffee without bitterness or acidity.",
     "The Aeropress is easy to use and easy to clean, making it a great option for coffee lovers of all levels.",
-    "With the Aeropress, you have full control over the brewing process, allowing you to experiment with different brewing techniques and customize your cup of coffee to your liking."
+    "With the Aeropress, you have full control over the brewing process, allowing you to experiment with different brewing techniques."
   ];
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -25,11 +25,11 @@ export const SectionFour = () => {
   }, [activeIndex]);
   return (
     <div className="flex flex-col justify-center items-center pt-[50px] shadow">
-      <div className="text-center w-[500px] lg:w-[850px]">
+      <div className="text-center w-[300px] md:w-[500px] lg:w-[850px]">
         <h5 className="tracking-[1.2px] text-[12px] font-josefin font-bold pb-[50px]">IN THE PRESS</h5>
         <p className="font-nunito text-[22px] pb-[100px] h-[116px]">{quotes[activeIndex]}</p>
       </div>
-      <div className="flex justify-center flex-wrap mt-8 pb-[90px]">
+      <div className="flex justify-center flex-wrap mt-12 pb-[90px]">
         {[0, 1, 2, 3, 4].map((index) => (
           <img
             key={index}

@@ -44,7 +44,7 @@ export const SectionTwo = () => {
         </p>
       </div>
 
-      <div>
+      {<div>
         <div
           style={{ height: `${dashedBorderHeight}px` }}
           id="dashed-border"
@@ -100,7 +100,7 @@ export const SectionTwo = () => {
           </div>
         </div>
 
-        <div className="w-[520px] h-[364px] relative mx-auto m-5 mb-0 min-w-[520px] max-w-[40%] lg:absolute lg:bottom-[40px] lg:right-[30px] xl:top-[392px] xl:right-[135px]">
+        <div className="w-[520px] h-[364px] relative mx-auto m-5 mb-0 min-w-[400px] max-w-[40%] lg:absolute lg:bottom-[40px] lg:right-[30px] xl:top-[392px] xl:right-[135px]">
           <div className="overflow-hidden absolute inset-0">
             <img
               src={shot06}
@@ -109,7 +109,7 @@ export const SectionTwo = () => {
             />
           </div>
         </div>
-      </div>
+      </div>}
     </div>
   );
 };
