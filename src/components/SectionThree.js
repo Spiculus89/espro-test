@@ -58,8 +58,8 @@ export const SectionThree = () => {
           </svg>
         </div>
       </div>
-      <div className="lg:w-[50%] h-[700px] bg-[#8DB9CA] relative flex justify-center">
-        <div className="md:w-[440px] md:h-[440px] absolute top-[110px] z-30">
+      <div className="lg:w-[50%] h-[800px] md:h-[700px] bg-[#8DB9CA] relative flex justify-center">
+        <div className="w-[400px] md:w-[440px] md:h-[440px] absolute top-[110px] z-30">
           {currentImageIndex === 1 ? (
             <img className="w-full h-full object-fill" src={pic01} alt="1" />
           ) : currentImageIndex === 2 ? (
@@ -70,7 +70,7 @@ export const SectionThree = () => {
             <img className="w-full h-full object-fill" src={pic04} alt="4" />
           ) : null}
         </div>
-        <h1 className="absolute text-[#AACBD8] uppercase font-bold font-barlow text-[84px] mx-auto w-[400px] md:w-[610px] bottom-[26px] ">
+        <h1 className="absolute text-[#AACBD8] uppercase font-bold font-barlow text-[84px] mx-auto w-[400px] md:w-[610px] bottom-[26px]">
           press. sip. enjoy
         </h1>
       </div>
