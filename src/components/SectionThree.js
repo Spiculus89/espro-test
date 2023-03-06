@@ -15,8 +15,6 @@ export const SectionThree = () => {
   }, []);
   return (
     <div className="relative text-center flex flex-col lg:flex-row">
-
-
       <div className="z-10 bg-no-repeat bg-mountain aspect-h-1 bg-cover xl:bg-[center_top_-270px] h-[700px] lg:w-[50%] ">
         <h2 className="uppercase font-barlow text-[48px] pt-[137px] text-white">
           make every cup an experience.
@@ -61,7 +59,7 @@ export const SectionThree = () => {
         </div>
       </div>
       <div className="lg:w-[50%] h-[700px] bg-[#8DB9CA] relative flex justify-center">
-        <div className="w-[440px] h-[440px] absolute top-[110px] z-30">
+        <div className="md:w-[440px] md:h-[440px] absolute top-[110px] z-30">
           {currentImageIndex === 1 ? (
             <img className="w-full h-full object-fill" src={pic01} alt="1" />
           ) : currentImageIndex === 2 ? (
@@ -75,7 +73,6 @@ export const SectionThree = () => {
         <h1 className="absolute text-[#AACBD8] uppercase font-bold font-barlow text-[84px] mx-auto w-[400px] md:w-[610px] bottom-[26px] ">
           press. sip. enjoy
         </h1>
-        
       </div>
     </div>
   );

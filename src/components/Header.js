@@ -5,11 +5,9 @@ import searchLogo from "../assets/search-line.svg";
 import myAccountIcon from "../assets/my-account-icon.svg";
 import shoppingBagIcon from "../assets/shopping-bag-icon.svg";
 import { useState } from "react";
-import french from '../assets/french.png';
-import travel from '../assets/travel.png';
-import pour from '../assets/pour.png';
-import Hamburger from "hamburger-react";
-
+import french from "../assets/french.png";
+import travel from "../assets/travel.png";
+import pour from "../assets/pour.png";
 
 export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -26,9 +24,7 @@ export const Header = () => {
             href="_blank"
             className="xl:pl-[75px] tracking-[1.95px] md:pl-2 md:tracking-[1px] hover:text-[#8DB9CA]"
           >
-            <h5
-              onMouseEnter={() => setIsHovered(!isHovered)}
-            >
+            <h5 onMouseEnter={() => setIsHovered(!isHovered)}>
               SHOP
               <img
                 alt="arrowDown"
@@ -81,26 +77,48 @@ export const Header = () => {
           </div>
         </div>
       </nav>
-      {isHovered && <div className="invisible lg:visible pt-[41px] pb-[44px] pl-[92px] absolute uppercase flex items-end bg-white w-full">
-        <div className="flex flex-col justify-center">
-          <img src={french} alt='french' />
-          <h3 className="font-barlow text-[26px] font-bold w-[144px] tracking-[0.65px]" >french press</h3>
+      {isHovered && (
+        <div className="invisible lg:visible pt-[41px] pb-[44px] pl-[92px] absolute uppercase flex items-end bg-white w-full">
+          <div className="flex flex-col justify-center">
+            <img src={french} alt="french" />
+            <h3 className="font-barlow text-[26px] font-bold w-[144px] tracking-[0.65px]">
+              french press
+            </h3>
+          </div>
+          <div className="flex flex-col justify-center items-center ml-[201px] mr-[180px]">
+            <img src={travel} alt="travel" />
+            <h3 className="font-barlow text-[26px] font-bold w-[142px] tracking-[0.65px]">
+              travel press
+            </h3>
+          </div>
+          <div className="flex flex-col justify-center items-center mr-[148px]">
+            <img src={pour} alt="pour over" />
+            <h3 className="font-barlow text-[26px] font-bold w-[108px] tracking-[0.65px]">
+              pour over
+            </h3>
+          </div>
+          <div className="flex flex-col justify-center">
+            <h4 className="font-josefin tracking-[1.3px] text-[13px] font-bold">
+              other collections
+            </h4>
+            <h4 className="font-barlow text-[23px] tracking-[0.57px] mt-[16px] leading-[44px]">
+              cold brew
+              <br />
+              espresso
+              <br />
+              tasting cups
+              <br />
+              accessories
+            </h4>
+
+            <button className="w-[128px] h-[44px] border border-black rounded-full p-2 mt-[25px]">
+              <h5 className="font-josefin font-bold tracking-[1.8px] ">
+                shop all
+              </h5>
+            </button>
+          </div>
         </div>
-        <div className="flex flex-col justify-center items-center ml-[201px] mr-[180px]">
-        <img src={travel} alt='travel'  />
-          <h3 className="font-barlow text-[26px] font-bold w-[142px] tracking-[0.65px]" >travel press</h3>
-        </div>
-        <div className="flex flex-col justify-center items-center mr-[148px]">
-        <img src={pour} alt='pour over'  />
-          <h3 className="font-barlow text-[26px] font-bold w-[108px] tracking-[0.65px]" >pour over</h3>
-        </div>
-        <div className="flex flex-col justify-center">
-          <h4 className="font-josefin tracking-[1.3px] text-[13px] font-bold">other collections</h4>
-          <h4 className="font-barlow text-[23px] tracking-[0.57px] mt-[16px] leading-[44px]">cold brew<br />espresso<br />tasting cups<br />accessories</h4>
-          
-          <button className="w-[128px] h-[44px] border border-black rounded-full p-2 mt-[25px]"><h5 className="font-josefin font-bold tracking-[1.8px] ">shop all</h5></button>
-        </div>
-        </div>}
+      )}
       <section className="flex justify-end mr-5">
         <button
           className="visible md:invisible absolute top-[56px] "

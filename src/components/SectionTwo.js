@@ -44,72 +44,74 @@ export const SectionTwo = () => {
         </p>
       </div>
 
-      {<div>
-        <div
-          style={{ height: `${dashedBorderHeight}px` }}
-          id="dashed-border"
-          className="w-0 border-dashed max-h-[1800px] z-0 right-[20px] lg:left-[50%] border-[1px] absolute top-[400px] border-[#659AB1] "
-        ></div>
+      {
+        <div>
+          <div
+            style={{ height: `${dashedBorderHeight}px` }}
+            id="dashed-border"
+            className="w-0 border-dashed max-h-[1800px] z-0 right-[20px] lg:left-[50%] border-[1px] absolute top-[400px] border-[#659AB1] "
+          ></div>
 
-        <div className="w-[246px] h-[326px] relative mx-auto m-5 min-w-[246px] max-w-[40%] lg:absolute lg:top-[392px] lg:left-[20px] xl:top-[108px] xl:left-[75px] z-40">
-          <div className="overflow-hidden absolute inset-0 ">
-            <img
-              src={shot01}
-              alt="shot01"
-              className="hover:scale-110 transition duration-700 ease-in-out "
-            />
+          <div className="w-[246px] h-[326px] relative mx-auto m-5 min-w-[246px] max-w-[40%] lg:absolute lg:top-[392px] lg:left-[20px] xl:top-[108px] xl:left-[75px] z-40">
+            <div className="overflow-hidden absolute inset-0 ">
+              <img
+                src={shot01}
+                alt="shot01"
+                className="hover:scale-110 transition duration-700 ease-in-out "
+              />
+            </div>
           </div>
-        </div>
-        <div className="w-[420px] h-[302px] relative mx-auto m-5 min-w-[420px] max-w-[40%] lg:absolute lg:top-[780px] lg:left-[20px] xl:top-[494px] xl:left-[75px]">
-          <div className="overflow-hidden absolute inset-0">
-            <img
-              src={shot02}
-              alt="shot02"
-              className="hover:scale-110 transition duration-700 ease-out"
-            />
+          <div className="w-[420px] h-[302px] relative mx-auto m-5 min-w-[420px] max-w-[40%] lg:absolute lg:top-[780px] lg:left-[20px] xl:top-[494px] xl:left-[75px]">
+            <div className="overflow-hidden absolute inset-0">
+              <img
+                src={shot02}
+                alt="shot02"
+                className="hover:scale-110 transition duration-700 ease-out"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="w-[264px] h-[264px] relative mx-auto m-5 min-w-[264px] max-w-[40%] lg:absolute lg:top-[680px] lg:left-[20%] xl:top-[392px] xl:left-[391px]">
-          <div className="overflow-hidden absolute inset-0">
-            <img
-              src={shot03}
-              alt="shot03"
-              className="hover:scale-110 transition duration-700 ease-out"
-            />
+          <div className="w-[264px] h-[264px] relative mx-auto m-5 min-w-[264px] max-w-[40%] lg:absolute lg:top-[680px] lg:left-[20%] xl:top-[392px] xl:left-[391px]">
+            <div className="overflow-hidden absolute inset-0">
+              <img
+                src={shot03}
+                alt="shot03"
+                className="hover:scale-110 transition duration-700 ease-out"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="w-[119px] h-[158px] relative mx-auto m-5 min-w-[119px] max-w-[40%] lg:absolute lg:top-[380px] lg:right-[20px] xl:top-[68px] z-20 xl:right-[75px]">
-          <div className="overflow-hidden absolute inset-0">
-            <img
-              src={shot04}
-              alt="shot04"
-              className="hover:scale-110 transition duration-700 ease-out"
-            />
+          <div className="w-[119px] h-[158px] relative mx-auto m-5 min-w-[119px] max-w-[40%] lg:absolute lg:top-[380px] lg:right-[20px] xl:top-[68px] z-20 xl:right-[75px]">
+            <div className="overflow-hidden absolute inset-0">
+              <img
+                src={shot04}
+                alt="shot04"
+                className="hover:scale-110 transition duration-700 ease-out"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="w-[231px] h-[304px] relative mx-auto m-5 max-w-[40%] min-w-[231px] lg:absolute lg:top-[420px] lg:right-[150px] xl:top-[130px] z-10 xl:right-[224px]">
-          <div className="overflow-hidden absolute inset-0">
-            <img
-              src={shot05}
-              alt="shot05"
-              className="hover:scale-110 transition duration-700 ease-out"
-            />
+          <div className="w-[231px] h-[304px] relative mx-auto m-5 max-w-[40%] min-w-[231px] lg:absolute lg:top-[420px] lg:right-[150px] xl:top-[130px] z-10 xl:right-[224px]">
+            <div className="overflow-hidden absolute inset-0">
+              <img
+                src={shot05}
+                alt="shot05"
+                className="hover:scale-110 transition duration-700 ease-out"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="w-[520px] h-[364px] relative mx-auto m-5 mb-0 min-w-[400px] max-w-[40%] lg:absolute lg:bottom-[40px] lg:right-[30px] xl:top-[392px] xl:right-[135px]">
-          <div className="overflow-hidden absolute inset-0">
-            <img
-              src={shot06}
-              alt="shot06"
-              className="hover:scale-110 transition duration-700 ease-out"
-            />
+          <div className="w-[520px] h-[364px] relative mx-auto m-5 mb-0 min-w-[400px] max-w-[40%] lg:absolute lg:bottom-[40px] lg:right-[30px] xl:top-[392px] xl:right-[135px]">
+            <div className="overflow-hidden absolute inset-0">
+              <img
+                src={shot06}
+                alt="shot06"
+                className="hover:scale-110 transition duration-700 ease-out"
+              />
+            </div>
           </div>
         </div>
-      </div>}
+      }
     </div>
   );
 };
