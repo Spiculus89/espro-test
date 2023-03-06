@@ -8,6 +8,7 @@ import { useState } from "react";
 import french from '../assets/french.png';
 import travel from '../assets/travel.png';
 import pour from '../assets/pour.png';
+import Hamburger from "hamburger-react";
 
 
 export const Header = () => {
@@ -80,7 +81,7 @@ export const Header = () => {
           </div>
         </div>
       </nav>
-      {isHovered && <div className="pt-[41px] pb-[44px] pl-[92px] absolute uppercase flex items-end bg-white w-full">
+      {isHovered && <div className="invisible lg:visible pt-[41px] pb-[44px] pl-[92px] absolute uppercase flex items-end bg-white w-full">
         <div className="flex flex-col justify-center">
           <img src={french} alt='french' />
           <h3 className="font-barlow text-[26px] font-bold w-[144px] tracking-[0.65px]" >french press</h3>
