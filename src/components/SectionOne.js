@@ -3,7 +3,7 @@ import arrowDown from "../assets/arrow-right-short.svg";
 
 export const SectionOne = () => {
   return (
-    <div className="min-w-full pt-[190px] bg-src text-center bg-pouring bg-bottom h-[663px] bg-transparent">
+    <div className="min-w-full pt-[140px] md:pt-[190px] bg-src text-center bg-pouring bg-bottom h-[663px] bg-transparent">
       <h1 className="uppercase tracking-[0px] text-white font-barlow lg:text-[70px] text-[40px]">
         brew anywhere. be anywhere.
       </h1>
