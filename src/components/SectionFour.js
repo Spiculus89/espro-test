@@ -39,7 +39,7 @@ export const SectionFour = () => {
             key={index}
             src={logos[index]}
             alt={`Press Logo ${index}`}
-            className={`h-16 mx-[2vw]`}
+            className={`h-16 cursor-pointer mx-[2vw]`}
             style={{
               opacity: `${activeIndex === index ? "100%" : "20%"}`,
               transition: "opacity 0.5s ease-in-out",

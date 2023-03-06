@@ -26,7 +26,7 @@ export const SectionThree = () => {
           cage.
         </p>
         <div className="relative">
-          <button className="rounded-[26px] text-[12px] bg-white mt-[30px] w-[208px] h-[50px] z-50">
+          <button className="transition-all ease-out duration-300 hover:scale-[108%] rounded-[26px] text-[12px] bg-white mt-[30px] w-[208px] h-[50px] z-50">
             <h5 className="font-josefin font-bold tracking-[1.8px] mt-[4px] z-30">
               SHOP TRAVEL PRESS
             </h5>
