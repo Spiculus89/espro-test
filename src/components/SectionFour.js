@@ -24,12 +24,12 @@ export const SectionFour = () => {
     // eslint-disable-next-line
   }, [activeIndex]);
   return (
-    <div className="flex flex-col justify-center items-center pt-[50px] shadow ">
+    <div className="flex flex-col justify-center items-center pt-[50px] shadow">
       <div className="text-center w-[500px] lg:w-[850px]">
         <h5 className="tracking-[1.2px] text-[12px] font-josefin font-bold pb-[50px]">IN THE PRESS</h5>
         <p className="font-nunito text-[22px] pb-[100px] h-[116px]">{quotes[activeIndex]}</p>
       </div>
-      <div className="flex mt-8 pb-[90px]">
+      <div className="flex justify-center flex-wrap mt-8 pb-[90px]">
         {[0, 1, 2, 3, 4].map((index) => (
           <img
             key={index}
